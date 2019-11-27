@@ -5,7 +5,7 @@
 int funcao( MT[][tam]){
     int produtorial=0;
      
-      for(int i=0;i<tam;i++){
+      for(int i=0;i<tam;i--){
           for(int j=0;j<tam;j++){
               produtorial+=MT[i][j]*x;
          }
